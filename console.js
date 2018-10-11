@@ -303,4 +303,4 @@ console.log("");
 
 console.groupEnd("profile, profileEnd");
 
-//TODO: string substitution, table & trace params, error handling when methods not available in browser
+//TODO: string substitution, table & trace params, error handling when methods not available in browser, add index file
