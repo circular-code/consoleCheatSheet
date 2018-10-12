@@ -74,7 +74,7 @@ else {
 
   console.group("object");
   console.log("%cobject", "color: white; font-size: 12px; background-color: cornflowerblue;padding: 5px");
-  console.log("%c('%%o' || '%%O', substitute:object)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
+  console.log("%c('...%%o...' || '...%%O...', substitute:object)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
 
   console.log("");
 
@@ -84,7 +84,7 @@ else {
   console.group("integer");
 
   console.log("%cinteger", "color: white; font-size: 12px; background-color: cornflowerblue;padding: 5px");
-  console.log("%c('%%d' || '%%i', substitute:integer)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
+  console.log("%c('...%%d...' || '...%%i...', substitute:integer)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
 
   console.log("");
 
@@ -94,7 +94,7 @@ else {
   console.group("string");
 
   console.log("%cstring", "color: white; font-size: 12px; background-color: cornflowerblue;padding: 5px");
-  console.log("%c('%%s', substitute:string)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
+  console.log("%c('...%%s...', substitute:string)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
 
   console.log("");
 
@@ -104,7 +104,7 @@ else {
   console.group("float");
 
   console.log("%cfloat", "color: white; font-size: 12px; background-color: cornflowerblue;padding: 5px");
-  console.log("%c('%%f', substitute:float)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
+  console.log("%c('...%%f...', substitute:float)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
 
   console.log("");
 
@@ -114,7 +114,7 @@ else {
   console.group("style");
 
   console.log("%cstyle", "color: white; font-size: 12px; background-color: cornflowerblue;padding: 5px");
-  console.log("%c('%%c', substitute:css string)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
+  console.log("%c('...%%c...', substitute:css string)", "color: white; font-size: 12px; background-color: LightSeaGreen;padding: 5px");
   console.log("");
 
   console.log('%cHello world', 'font-size:40px;color:#fff;text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);');
