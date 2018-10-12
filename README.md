@@ -1,5 +1,5 @@
 # consoleCheatSheet
-Cheat sheet for console methods
+cheatsheet/overview for console web api methods
 
 copy and paste the content of console.js into your browser console to see the magic happen
 
